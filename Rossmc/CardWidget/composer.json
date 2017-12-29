@@ -6,7 +6,7 @@
     "staempfli/magento2-module-widget-extra-fields": "*"
   },
   "repositories": [
-    { "type": "vcs", "url": "https://github.com/rossmc/widgets" }
+    { "type": "vcs", "url": "https://github.com/rossmc/CardWidget" }
   ],
   "type": "magento2-module",
   "version": "1.0.0",
