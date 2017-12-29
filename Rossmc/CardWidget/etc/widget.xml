@@ -2,7 +2,7 @@
 <widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
     <widget id="rossmc_uicard" class="\Rossmc\CardWidget\Block\Widget\CardWidget">
-        <label translate="true">UI Card Widget - ross</label>
+        <label translate="true">UI Card Widget</label>
         <description translate="true"></description>
         <parameters>
             <parameter name="image" xsi:type="block" visible="true" sort_order="10" required="true">
