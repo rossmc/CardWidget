@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget id="rossmc_uicard" class="\Rossmc\CardWidget\Block\Widget\CardWidget">
+        <label translate="true">UI Card Widget - ross</label>
+        <description translate="true"></description>
+        <parameters>
+            <parameter name="image" xsi:type="block" visible="true" sort_order="10" required="true">
+                <label translate="true">Image</label>
+                <block class="Staempfli\WidgetExtraFields\Block\Adminhtml\ImageField"/>
+            </parameter>
+
+            <parameter name="url" xsi:type="text" visible="true" sort_order="20">
+                <label translate="true">URL Link</label>
+                <description translate="true">Add a relative (everything after your store URL) or absolute URL (includes the http/https protocol in the URL - will open in a new browser tab)</description>
+            </parameter>
+
+            <parameter name="title" xsi:type="text" visible="true" sort_order="30">
+                <label translate="true">Title</label>
+            </parameter>
+
+            <parameter name="description" xsi:type="text" visible="true" sort_order="40">
+                <label translate="true">Description</label>
+            </parameter>
+
+            <parameter name="template" xsi:type="select" required="true" visible="false" sort_order="100">
+                <label translate="true">Template</label>
+                <options>
+                    <option name="default" value="card-widget.phtml" selected="true">
+                        <label translate="true">Standard UI Card</label>
+                    </option>
+                </options>
+            </parameter>
+
+        </parameters>
+    </widget>
+</widgets>

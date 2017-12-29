@@ -1,0 +1,28 @@
+//
+//  Common
+//  _____________________________________________
+& when (@media-common = true) {
+    .ui-card-widget {
+        display: inline-block;
+        width: 250px;
+        border: @border-width__base	 solid @border-color__base;
+
+        .link {
+            text-decoration: none;
+            color: @text__color;
+        }
+
+        .image {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .title,
+        .description {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+}

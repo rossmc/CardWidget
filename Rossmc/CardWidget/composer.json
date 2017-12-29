@@ -1,0 +1,23 @@
+{
+  "name": "rossmc/cardwidget",
+  "description": "Widget for adding UI Card element to frontend",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "staempfli/magento2-module-widget-extra-fields": "*"
+  },
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/rossmc/widgets" }
+  ],
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Rossmc\\CardWidget\\": ""
+    }
+  }
+}

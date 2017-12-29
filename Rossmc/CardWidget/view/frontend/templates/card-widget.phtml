@@ -1,0 +1,10 @@
+<?php
+$_link = $block->getLink();
+?>
+<div class="ui-card-widget">
+    <?php echo $_link ? $_link:''?>
+    <div class="image" style="background-image: url(<?php echo $this->getUrl('pub/media') . $block->getData('image'); ?>);"></div>
+    <h2 class="title"><?php echo $block->getData('title'); ?></h2>
+    <p class="description"><?php echo $block->getData('description'); ?></p>
+    <?php echo $_link ? '</a>':''?>
+</div>
