@@ -1,6 +1,6 @@
 # CardWidget
 - Add the popular UI pattern of a Card to your Magento frontend with a CMS widget.
-- Uses a graphical image upload representation on the Magento Admin panel with the [Staempfli_WidgetExtraFields](https://github.com/staempfli/magento2-module-widget-extra-fields) Magento2 community extension. Alternativly, you could create your own method of uploading images as described in the [Atwix post](https://www.atwix.com/magento-2/add-image-chooser-to-widget/).
+- Uses a graphical image upload representation on the Magento Admin panel with the [Staempfli_WidgetExtraFields](https://github.com/staempfli/magento2-module-widget-extra-fields) Magento2 community extension. Alternativly, you could create your own method of uploading images as described in this [Atwix post](https://www.atwix.com/magento-2/add-image-chooser-to-widget/).
 
 ## Installation
 - This module requires [Staempfli_WidgetExtraFields](https://github.com/staempfli/magento2-module-widget-extra-fields), it must be installed first.
